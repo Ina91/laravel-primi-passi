@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+main {
+  background-image: url(/images/pasta_foto.jpg?9bbbfd88007f846dbc9f5b4249403a33);
+}
+
+main .cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+main .cards img {
+  width: 300px;
+  height: 250px;
+  margin: 10px 20px 10px 0;
+  transition: 0.3s ease-in-out;
+}
+
+main .cards img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+
+main .cards h2 {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #457d9b;
+}
+
+main .cards h3 {
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
