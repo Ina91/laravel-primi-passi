@@ -36,7 +36,7 @@ main .cards h2 {
   width: 100%;
   margin-top: 8px;
   margin-bottom: 8px;
-  color: #457d9b;
+  color: #001942;
 }
 
 main .cards h3 {
@@ -60,5 +60,10 @@ header ul li {
 header ul li a {
   color: black;
   text-decoration: none;
+}
+
+header ul li a.active {
+  color: blue;
+  text-decoration: underline;
 }
 
